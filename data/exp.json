@@ -1,0 +1,28 @@
+{
+    "work": [
+        {
+            "title": "Front-end Developer",
+            "comp": "UMKM Riset (Campus Research)",
+            "loc": "Yogyakarta, Indonesia",
+            "id": "hyperlink",
+            "link": "https://idea-generator-dev.web.app/",
+            "ic": "ExternalLinkIcon",
+            "start": "06/23",
+            "end": "12/23"
+        },
+        {
+            "title": "Full-stack Developer",
+            "comp": "Google Developer Students Club",
+            "loc": "Yogyakarta, Indonesia",
+            "start": "11/22",
+            "end": "06/23"
+        },
+        {
+            "title": "Front-end Developer",
+            "comp": "HIMAKOM (Computer Science Student Association)",
+            "loc": "Yogyakarta, Indonesia",
+            "start": "10/22",
+            "end": "12/22"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "prj": [
+        {
+            "title": "CV Website for Job Application",
+            "date": "04/23",
+            "link": "https://sickopam.github.io/makmuresume",
+            "ic": "ExternalLinkIcon",
+            "desc": ["Developed a custom CV website for the restaurant industry using React.js and CSS, enhancing user interaction and style.", "Implemented and refined React state management, laying groundwork for future functionality improvements."]
+        },
+        {
+            "title": "Personal Portfolio Website (prototype)",
+            "date": "07/22",
+            "link": "https://sickopam.github.io/fin",
+            "ic": "ExternalLinkIcon",
+            "desc": ["Developed my first personal website using React.js and TailwindCSS, achieving a dynamic interface and modern design.", "Discontinued the initial website prototype due to project structure issues, resulting in unresponsiveness and other flaws."]
+        }
+    ]
+}
