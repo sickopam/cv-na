@@ -1,0 +1,20 @@
+{
+    "edu": [
+        {
+            "major": "Bachelor of Computer Science",
+            "link": "https://ugm.ac.id/en/prodi/bachelor-in-computer-science/#:~:text=Graduates%20of%20this%20study%20program,in%20designing%2C%20developing%2C%20testing%20and",
+            "ic": "ExternalLinkIcon",
+            "school": "Gadjah Mada University",
+            "loc": "Yogyakarta, Indonesia",
+            "start": "07/22"
+        },
+        {
+            "major": "Bachelor of Computer Science & AI",
+            "link": "https://www.birmingham.ac.uk/undergraduate/courses/computer-science/artificial-intelligence-computer-science.aspx#:~:text=Our%20three%2Dyear%20Artificial%20Intelligence,put%20this%20in%20to%20practice.",
+            "ic": "ExternalLinkIcon",
+            "school": "University of Birmingham",
+            "loc": "Birmingham, UK",
+            "start": "07/23"
+        }
+    ]
+}

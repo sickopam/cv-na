@@ -10,7 +10,7 @@ const iconMap = {
 export default function Projects() {
   return (
     <Stack spacing='1.2rem' id='bout'>
-        <Text>Projects</Text>
+        <Text fontSize={{base: 'sm', sm: 'md'}}>Projects</Text>
         {data.prj.map((e, i) => (
             <List key={i}>
                 <SimpleGrid columns={2}>
@@ -18,8 +18,8 @@ export default function Projects() {
                     <Stack>
                         <Flex flexDir='column'>
                             <Flex gap='.4rem'>
-                                <a id='hyperlink' href={e.link} target='_blank'>
-                                    <Text fontSize='md'>{e.title}</Text>
+                                <a id={e.id} href={e.link} target='_blank'>
+                                    <Text fontSize={{base: 'sm', sm: 'md'}}>{e.title}</Text>
                                 </a>
                                 {e.link && (
                                     <Stack justify='center'>
@@ -29,9 +29,12 @@ export default function Projects() {
                             </Flex>
                         </Flex>
 
-                        {e.desc.map(e => (
-                            <Text fontSize='xs' className='shadowtext'>{e}</Text>
+                        {e.desc.map(i => (
+                            <Text fontSize='xs' className='shadowtext'>{i}</Text>
                         ))}
+                        {/* {e.ss.map(i => {
+                            <Image src={i}></Image>
+                        })} */}
                     </Stack>
                 </SimpleGrid>
             </List>

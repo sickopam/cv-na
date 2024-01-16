@@ -2,6 +2,7 @@ import { Stack } from '@chakra-ui/react'
 import Header from '@/sec/Header'
 import About from '@/sec/About'
 import Projects from '@/sec/Projects'
+import Edu from '@/sec/Edu'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Header/>
       <About/>
       <Projects/>
+      <Edu/>
     </Stack>
   )
 }
