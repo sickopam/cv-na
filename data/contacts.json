@@ -1,0 +1,32 @@
+{
+    "contact": [
+        {
+            "platform": "Github",
+            "name": "sickopam",
+            "id": "hyperlink",
+            "ic": "ExternalLinkIcon",
+            "link": "https://github.com/sickopam"
+        },
+        {
+            "platform": "LinkedIn",
+            "name": "naufal abiyyu",
+            "id": "hyperlink",
+            "ic": "ExternalLinkIcon",
+            "link": "https://www.linkedin.com/in/naufal-abiyyu-66a882217/"
+        },
+        {
+            "platform": "Instagram",
+            "name": "naufol",
+            "id": "hyperlink",
+            "ic": "ExternalLinkIcon",
+            "link": "https://instagram.com/naufol"
+        },
+        {
+            "platform": "Email",
+            "name": "naubiyyu@gmail.com",
+            "id": "hyperlink",
+            "ic": "ExternalLinkIcon",
+            "link": "mailto:naubiyyu@gmail.com"
+        }
+    ]
+}

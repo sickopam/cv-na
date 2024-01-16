@@ -3,6 +3,7 @@ import Header from '@/sec/Header'
 import About from '@/sec/About'
 import Projects from '@/sec/Projects'
 import Edu from '@/sec/Edu'
+import Contact from '@/sec/Contact'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <About/>
       <Projects/>
       <Edu/>
+      <Contact/>
     </Stack>
   )
 }
