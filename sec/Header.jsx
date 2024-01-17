@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { useDisclosure, Stack, Flex, Box, Text, Button} from '@chakra-ui/react'
 
-import Me from '../public/assets/me2.png'
+import Me from '../public/assets/me.png'
 import Cv from '@/comp/CvMod.js'
 
 export default function Header() {
