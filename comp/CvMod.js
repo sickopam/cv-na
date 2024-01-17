@@ -15,7 +15,7 @@ export default function Cv({ isOpen, onClose }) {
         <ModalCloseButton/>
         <ModalBody bg='#262626' rounded='md'>
           <Iframe 
-          src='/assets/resume.pdf'
+          src='/assets/cv.pdf'
           width='100%' 
           height='600px'>
           </Iframe>
