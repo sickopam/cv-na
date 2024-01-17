@@ -25,6 +25,10 @@ button {
   cursor: pointer;
 }
 
+#clickable {
+  cursor: pointer;
+}
+
 @media (min-width: 720px) {
   body {
     background-color: #262626;

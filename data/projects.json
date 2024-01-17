@@ -11,8 +11,8 @@
         {
             "title": "Google Developer Students Club Application",
             "date": "09/22",
-            "desc": ["Developed a skeleton website using Next.js and TailwindCSS.", "Integrated web responsiveness using CSS media queries."],
-            "ss": ["../public/assets/gdscss/ss1.png"]
+            "desc": ["Developed a skeleton copy of 'Off-White' website using Next.js and TailwindCSS.", "Integrated web responsiveness using CSS media queries."],
+            "ss": ["/assets/gdscss/ss1.png", "/assets/gdscss/ss2.png", "/assets/gdscss/ss3.png", "/assets/gdscss/ss4.png", "/assets/gdscss/ss5.png"]
         },
         {
             "title": "Personal Portfolio Website",

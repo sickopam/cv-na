@@ -4,6 +4,7 @@
             "title": "Front-end Developer",
             "comp": "UMKM Riset (Campus Research)",
             "loc": "Yogyakarta, Indonesia",
+            "desc": "Led the development of a research website using React and ChakraUI, integrated backend connectivity with Axios API, and managed monthly tasks for professors, showcasing project management skills.",
             "id": "hyperlink",
             "link": "https://idea-generator-dev.web.app/",
             "ic": "ExternalLinkIcon",
@@ -14,6 +15,7 @@
             "title": "Full-stack Developer",
             "comp": "Google Developer Students Club",
             "loc": "Yogyakarta, Indonesia",
+            "desc": "Led the development of a research website using React and ChakraUI, integrated backend connectivity with Axios API, and managed monthly tasks for professors, showcasing project management skills.",
             "start": "11/22",
             "end": "06/23"
         },
@@ -21,8 +23,10 @@
             "title": "Front-end Developer",
             "comp": "HIMAKOM (Computer Science Student Association)",
             "loc": "Yogyakarta, Indonesia",
+            "desc": "Led the development of a research website using React and ChakraUI, integrated backend connectivity with Axios API, and managed monthly tasks for professors, showcasing project management skills.",
             "start": "10/22",
-            "end": "12/22"
+            "end": "12/22",
+            "ss": ["/assets/pemirass/ss1.png", "/assets/pemirass/ss2.png", "/assets/pemirass/ss3.png", "/assets/pemirass/ss4.png", "/assets/pemirass/ss5.png", "/assets/pemirass/ss6.png", "/assets/pemirass/ss7.png", "/assets/pemirass/ss8.png", "/assets/pemirass/ss9.png"]
         }
     ]
 }

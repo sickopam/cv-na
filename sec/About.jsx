@@ -1,14 +1,23 @@
-import React from 'react'
-import { Flex, Stack, Text, List, SimpleGrid } from '@chakra-ui/react'
+import React, { useState } from 'react'
+import { Flex, Stack, Text, List, SimpleGrid, useDisclosure, Wrap, Image } from '@chakra-ui/react'
 
 import data from '../data/exp.json'
 import { ExternalLinkIcon } from "@chakra-ui/icons";
+import Img from '@/comp/imgMod';
 
 const iconMap = {
   "ExternalLinkIcon": ExternalLinkIcon,
 };
 
 export default function About() {
+
+    const {isOpen, onOpen, onClose} = useDisclosure()
+    const [selectImg, setSelectImg] = useState(null)
+    const showImg = (imgSrc) => {
+        setSelectImg(imgSrc)
+        onOpen()
+    }
+    console.log(selectImg)
 
   return (
     <Stack spacing='3rem'>
@@ -35,10 +44,27 @@ export default function About() {
                                         </Stack>
                                     )}
                                 </Flex>
-                                <Text fontSize='xs'>{e.comp}</Text>
+                                <Text fontSize='smaller'>{e.comp}</Text>
                             </Flex>
 
                             <Text fontSize='smaller' className='shadowtext'>{e.loc}</Text>
+                            <Text fontSize='xs' className='shadowtext'>{e.desc}</Text>
+
+                            {e.ss && (
+                                <Wrap overflowX='scroll'>
+                                    <Flex width='55%' gap='.5rem'>
+                                        {e.ss.map(i => (
+                                            <Image 
+                                                id='clickable' 
+                                                onClick={() => showImg(i)} 
+                                                rounded='lg' 
+                                                src={i}
+                                            />
+                                        ))}
+                                    </Flex>
+                                </Wrap>
+                            )}
+                            <Img isOpen={isOpen} onClose={onClose} selectImg={selectImg}/>
                         </Stack>
                     </SimpleGrid>
                 </List>
