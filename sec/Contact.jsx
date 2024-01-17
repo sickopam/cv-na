@@ -13,7 +13,7 @@ export default function Contact() {
         <Text fontSize={{base: 'sm', sm: 'md'}}>Contacts</Text>
         {data.contact.map((e, i) => (
             <List key={i}>
-                <SimpleGrid columns={2}>
+                <SimpleGrid columns={{base: 1, sm: 2}}>
                     <Text fontSize='sm' className='shadowtext'>{e.platform}</Text>
                     <Stack>
                         <Flex flexDir='column'>

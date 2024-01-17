@@ -21,7 +21,7 @@ export default function Projects() {
         <Text fontSize={{base: 'sm', sm: 'md'}}>Projects</Text>
         {data.prj.map((e, i) => (
             <List key={i}>
-                <SimpleGrid columns={2}>
+                <SimpleGrid columns={{base: 1, sm: 2}}>
                     <Text fontSize='smaller' className='shadowtext'>{e.date}</Text>
                     <Stack>
                         <Flex flexDir='column'>

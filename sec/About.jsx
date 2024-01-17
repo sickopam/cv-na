@@ -30,7 +30,7 @@ export default function About() {
             <Text>Work Experience</Text>
             {data.work.map((e, i) => (
                 <List key={i}>
-                    <SimpleGrid columns={2}>
+                    <SimpleGrid columns={{base: 1, sm: 2}}>
                         <Text fontSize='smaller' className='shadowtext'>{e.start} – {e.end}</Text>
                         <Stack>
                             <Flex flexDir='column'>
