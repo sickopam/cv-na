@@ -13,8 +13,9 @@ export default function Cv({ isOpen, onClose }) {
       <ModalOverlay/>
       <ModalContent maxW='56rem'>
         <ModalCloseButton/>
-        <ModalBody bg='#262626' rounded='md'>
+        <ModalBody bg='#262626' rounded='lg' p={1}>
           <Iframe 
+          rounded='sm'
           src='/assets/cv.pdf'
           width='100%' 
           height='600px'>
