@@ -11,8 +11,8 @@ import {
       <Modal rounded='lg' isOpen={isOpen} onClose={onClose} isCentered>
         <ModalOverlay/>
         <ModalContent maxW='56rem'>
-            <ModalBody bg='#262626' rounded='lg' p={1}>
-              <Image rounded='sm' w='100%' src={selectImg}/>
+            <ModalBody bg='#262626' rounded='md' p={1}>
+              <Image rounded='xs' w='100%' src={selectImg}/>
             </ModalBody>
         </ModalContent>
       </Modal>
