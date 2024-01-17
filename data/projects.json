@@ -1,26 +1,31 @@
 {
     "prj": [
         {
-            "title": "CV Website for Job Application",
+            "title": "Portfolio Website for Job Application",
             "date": "04/23",
             "id": "hyperlink",
             "link": "https://sickopam.github.io/makmuresume",
             "ic": "ExternalLinkIcon",
-            "desc": ["Developed a custom CV website for the restaurant industry using React.js and CSS, enhancing user interaction and style.", "Implemented and refined React state management, laying groundwork for future functionality improvements."]
+            "desc": ["Developed a custom CV website for the restaurant industry using React.js and CSS, enhancing user interaction and style.", "Implemented and refined React state management, laying groundwork for future functionality improvements."],
+            "stack": ["React.js", "CSS"]
+
         },
         {
             "title": "Google Developer Students Club Application",
             "date": "09/22",
             "desc": ["Developed a skeleton copy of 'Off-White' website using Next.js and TailwindCSS.", "Integrated web responsiveness using CSS media queries."],
+            "stack": ["Next.js", "TailwindCSS", "Axios API"],
             "ss": ["/assets/gdscss/ss1.png", "/assets/gdscss/ss2.png", "/assets/gdscss/ss3.png", "/assets/gdscss/ss4.png", "/assets/gdscss/ss5.png"]
         },
         {
-            "title": "Personal Portfolio Website",
+            "title": "Prototype Personal Website",
             "date": "07/22",
             "id": "hyperlink",
             "link": "https://sickopam.github.io/fin",
             "ic": "ExternalLinkIcon",
-            "desc": ["Developed my first personal website using React.js, TailwindCSS, and Framer-Motion, achieving a dynamic interface and modern design.", "Discontinued the initial website prototype due to project structure issues, resulting in unresponsiveness and other flaws."]
+            "desc": ["Developed my first personal website using React.js, TailwindCSS, and Framer-Motion, achieving a dynamic interface and modern design.", "Discontinued the initial website prototype due to project structure issues, resulting in unresponsiveness and other flaws."],
+            "stack": ["React.js", "TailwindCSS", "Framer-Motion"]
+
         }
     ]
 }

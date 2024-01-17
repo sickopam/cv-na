@@ -49,6 +49,11 @@ export default function About() {
 
                             <Text fontSize='smaller' className='shadowtext'>{e.loc}</Text>
                             <Text fontSize='xs' className='shadowtext'>{e.desc}</Text>
+                            <Flex gap='.5rem'>
+                                {e.stack.map(i => (
+                                    <Text fontSize='xs'>{i}</Text>
+                                ))}
+                            </Flex>
 
                             {e.ss && (
                                 <Wrap overflowX='scroll'>

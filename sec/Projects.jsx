@@ -39,6 +39,11 @@ export default function Projects() {
                         {e.desc.map(i => (                            
                             <Text fontSize='xs' className='shadowtext'>{i}</Text>
                         ))}
+                        <Flex gap='.5rem'>
+                            {e.stack.map(i => (
+                                <Text fontSize='xs'>{i}</Text>
+                            ))}
+                        </Flex>
                         {e.ss && (
                             <Wrap overflowX='scroll'>
                                 <Flex width='40%' gap='.5rem'>
