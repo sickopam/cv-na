@@ -20,7 +20,7 @@
             "id": "hyperlink",
             "link": "https://sickopam.github.io/fin",
             "ic": "ExternalLinkIcon",
-            "desc": ["Developed my first personal website using React.js and TailwindCSS, achieving a dynamic interface and modern design.", "Discontinued the initial website prototype due to project structure issues, resulting in unresponsiveness and other flaws."]
+            "desc": ["Developed my first personal website using React.js, TailwindCSS, and Framer-Motion, achieving a dynamic interface and modern design.", "Discontinued the initial website prototype due to project structure issues, resulting in unresponsiveness and other flaws."]
         }
     ]
 }
