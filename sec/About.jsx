@@ -20,7 +20,7 @@ export default function About() {
     console.log(selectImg)
 
   return (
-    <Stack spacing='3rem'>
+    <Stack spacing='3rem' w='fit-content'>
         <Stack spacing='.8rem'>
             <Text fontSize={{base: 'sm', sm: 'md'}}>About</Text>
             <Text id='bout' className='shadowtext'>A computer science & artificial intelligence student, focusing on web development and computer security & network. Based in Birmingham, originated in Indonesia.</Text>
