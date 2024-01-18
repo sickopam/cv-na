@@ -17,8 +17,7 @@ export default function About() {
         setSelectImg(imgSrc)
         onOpen()
     }
-    console.log(selectImg)
-
+    
   return (
     <Stack spacing='3rem' w='fit-content'>
         <Stack spacing='.8rem'>
@@ -50,20 +49,21 @@ export default function About() {
                             <Text fontSize='smaller' className='shadowtext'>{e.loc}</Text>
                             <Text fontSize='xs' className='shadowtext'>{e.desc}</Text>
                             <Flex gap='.5rem'>
-                                {e.stack.map(i => (
-                                    <Text fontSize='xs'>{i}</Text>
+                                {e.stack.map((s, i) => (
+                                    <Text key={i} fontSize='xs'>{s}</Text>
                                 ))}
                             </Flex>
 
                             {e.ss && (
                                 <Wrap overflowX='scroll'>
                                     <Flex width='55%' gap='.5rem'>
-                                        {e.ss.map(i => (
+                                        {e.ss.map((pic, i) => (
                                             <Image 
                                                 id='clickable' 
-                                                onClick={() => showImg(i)} 
+                                                key={i}
+                                                onClick={() => showImg(pic)} 
                                                 rounded='lg' 
-                                                src={i}
+                                                src={pic}
                                             />
                                         ))}
                                     </Flex>

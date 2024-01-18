@@ -9,13 +9,14 @@ const iconMap = {
 };
 
 export default function Projects() {
+
     const {isOpen, onOpen, onClose} = useDisclosure()
     const [selectImg, setSelectImg] = useState(null)
     const showImg = (imgSrc) => {
         setSelectImg(imgSrc)
         onOpen()
     }
-    console.log(selectImg)
+    
   return (
     <Stack spacing='1.2rem' id='bout'>
         <Text fontSize={{base: 'sm', sm: 'md'}}>Projects</Text>
@@ -40,19 +41,20 @@ export default function Projects() {
                             <Text fontSize='xs' className='shadowtext'>{i}</Text>
                         ))}
                         <Flex gap='.5rem'>
-                            {e.stack.map(i => (
-                                <Text fontSize='xs'>{i}</Text>
+                            {e.stack.map((s, i) => (
+                                <Text key={i} fontSize='xs'>{s}</Text>
                             ))}
                         </Flex>
                         {e.ss && (
                             <Wrap overflowX='scroll'>
                                 <Flex width='40%' gap='.5rem'>
-                                    {e.ss.map(i => (
+                                    {e.ss.map((pic, i) => (
                                         <Image 
-                                            id='clickable' 
-                                            onClick={() => showImg(i)} 
+                                            id='clickable'
+                                            key={i} 
+                                            onClick={() => showImg(pic)} 
                                             rounded='lg' 
-                                            src={i}
+                                            src={pic}
                                         />
                                     ))}
                                 </Flex>
