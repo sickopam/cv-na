@@ -5,7 +5,8 @@ import {
     ModalBody,
     ModalOverlay,
     ModalHeader,
-    ModalFooter} from '@chakra-ui/react'
+    ModalFooter,
+    ModalCloseButton} from '@chakra-ui/react'
   import React from 'react'
   import { Poppins } from 'next/font/google'
   
@@ -16,6 +17,7 @@ import {
       <Modal rounded='lg' isOpen={isOpen} onClose={onClose} isCentered>
         <ModalOverlay/>
         <ModalContent bg='#262626' maxW='40rem' className={poppins.className}>
+            <ModalCloseButton/>
             <ModalHeader>{header}</ModalHeader>
             <ModalBody>
                 <Text className='shadowtext' textAlign='justify'>{body}</Text>

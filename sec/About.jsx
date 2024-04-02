@@ -14,11 +14,11 @@ export default function About() {
             <Text onClick={onOpen} width='fit-content' id='hyperlink' fontSize='xs'>Show full &gt;</Text>
         </Stack>
 
-        <TextMod 
+        <TextMod
             isOpen={isOpen} 
             onClose={onClose} 
             header='About Me'
-            body='I am an experienced Software Engineer with well developed skills and eagerness to learn a bunch of new things that will contribute to the overall growth and development of myself. Additionally, I show keen interest in the realm of Cyber Security because I stand for the safety of applications and softwares in general. I believe, with my abilities as a software engineer and an avid learner of cyber security, I would be able to greatly contribute in future projects and work correspondingly and efficiently with any team that I am placed with.'
+            body='Competent & avid learner with experience as a software developer, dedicated to any project set on the table. Cheerful, friendly, and eager to socialize with companions in order to grasp any new knowledge available. Possess high analytical and judgemental skills, suitable for problem solving for quicker and efficient work development. Highly interested in Web/Mobile App Development, as well as Cyber Security, both crucial elements for the creation and safety of softwares.'
         />
 
     </Stack>
