@@ -19,6 +19,7 @@ export default function About() {
             onClose={onClose} 
             header='About Me'
             body='Competent & avid learner with experience as a software developer, dedicated to any project set on the table. Cheerful, friendly, and eager to socialize with companions in order to grasp any new knowledge available. Possess high analytical and judgemental skills, suitable for problem solving for quicker and efficient work development. Highly interested in Web/Mobile App Development, as well as Cyber Security, both crucial elements for the creation and safety of softwares.'
+            footer='A Double Degree student of University of Birmingham & Gadjah Mada University set to graduate in 2025.'
         />
 
     </Stack>

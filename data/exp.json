@@ -1,11 +1,11 @@
 {
     "work": [
         {
-            "title": "Front-end Developer",
+            "title": "Full-stack Developer",
             "comp": "UMKM Riset (Campus Research)",
             "loc": "Gadjah Mada University – Yogyakarta, Indonesia",
             "desc": "Led the development of a research website using React and ChakraUI, integrated backend connectivity with Axios API, and managed monthly tasks for professors, showcasing project management skills.",
-            "stack": ["React.js", "ChakraUI", "Axios API"],
+            "stack": ["React.js", "ChakraUI", "Axios API", "Python"],
             "id": "hyperlink",
             "link": "https://idea-generator-dev.web.app/",
             "ic": "ExternalLinkIcon",

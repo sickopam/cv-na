@@ -12,7 +12,7 @@ import {
   
   const poppins = Poppins({subsets: ["latin"], weight: "300"})
 
-  export default function TextMod({isOpen, onClose, header, body}) {
+  export default function TextMod({isOpen, onClose, header, body, footer}) {
     return (
       <Modal rounded='lg' isOpen={isOpen} onClose={onClose} isCentered>
         <ModalOverlay/>
@@ -22,7 +22,9 @@ import {
             <ModalBody>
                 <Text className='shadowtext' textAlign='justify'>{body}</Text>
             </ModalBody>
-            <ModalFooter/>
+            <ModalFooter>
+                <Text className='shadowtext' textAlign='left'>{footer}</Text>
+            </ModalFooter>
         </ModalContent>
       </Modal>
     )
