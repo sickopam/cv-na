@@ -5,6 +5,7 @@ import About from '@/sec/About'
 import Projects from '@/sec/Projects'
 import Edu from '@/sec/Edu'
 import Contact from '@/sec/Contact'
+import Experience from '@/sec/Experience'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <Header/>
       <About/>
+      <Experience/>
       <Projects/>
       <Edu/>
       <Contact/>
