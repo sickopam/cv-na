@@ -15,7 +15,7 @@ export default function Edu() {
             {data.edu.map((e, i) => (
                 <List key={i}>
                     <SimpleGrid columns={{base: 1, sm: 2}}>
-                        <Text fontSize='smaller' className='shadowtext'>{e.start} –</Text>
+                        <Text fontSize='smaller' className='shadowtext'>{e.start} – {e.end}</Text>
                         <Stack>
                             <Flex flexDir='column'>
                                 <Flex gap='.4rem'>
@@ -26,7 +26,7 @@ export default function Edu() {
                                         {React.createElement(iconMap[e.ic])}
                                     </Stack>
                                 </Flex>
-                                <Text fontSize='smaller'>{e.school}</Text>
+                                <Text fontSize='smaller'>{e.school} – Grade: {e.gpa}</Text>
                             </Flex>
                             <Text fontSize='smaller' className='shadowtext'>{e.loc}</Text>                            
                         </Stack>

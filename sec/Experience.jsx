@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Flex, Stack, Text, List, SimpleGrid, useDisclosure, Wrap, Image } from '@chakra-ui/react'
+import { Flex, Stack, Text, List, Box, SimpleGrid, useDisclosure, Wrap, Image } from '@chakra-ui/react'
 
 import data from '../data/exp.json'
 import { ExternalLinkIcon } from "@chakra-ui/icons";
@@ -23,7 +23,11 @@ export default function Experience() {
         <Stack spacing='1.2rem' id='bout'>
             <Text>Work Experience</Text>
             {data.work.map((e, i) => (
-                <List key={i}>
+                <List key={i}
+                bg='#3b3b3b' 
+                rounded='lg' 
+                p={3} 
+                _hover={{bg: '#525252'}} transition='ease-in-out .2s'>
                     <SimpleGrid columns={{base: 1, sm: 2}}>
                         <Text fontSize='smaller' className='shadowtext'>{e.start} – {e.end}</Text>
                         <Stack>

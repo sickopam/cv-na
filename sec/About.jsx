@@ -1,5 +1,6 @@
 import React from 'react'
 import { Stack, Text, useDisclosure, Modal, ModalOverlay, ModalContent, ModalBody, ModalHeader, ModalFooter } from '@chakra-ui/react'
+import TextMod from '@/comp/TextMod'
 
 export default function About() {
 
@@ -13,16 +14,12 @@ export default function About() {
             <Text onClick={onOpen} width='fit-content' id='hyperlink' fontSize='xs'>Show full &gt;</Text>
         </Stack>
 
-        <Modal rounded='lg' isOpen={isOpen} onClose={onClose} isCentered>
-            <ModalOverlay/>
-            <ModalContent bg='#262626' maxW='40rem'>
-                <ModalHeader>About Me</ModalHeader>
-                <ModalBody>
-                    <Text style={{textAlign: 'justify'}}>I am an experienced Software Engineer with well developed skills and eagerness to learn a bunch of new things that will contribute to the overall growth and development of myself. Additionally, I show keen interest in the realm of Cyber Security because I stand for the safety of applications and softwares in general. I believe, with my abilities as a software engineer and an avid learner of cyber security, I would be able to greatly contribute in future projects and work correspondingly with any team that I am placed with.</Text>
-                </ModalBody>
-                <ModalFooter></ModalFooter>
-            </ModalContent>
-        </Modal>
+        <TextMod 
+            isOpen={isOpen} 
+            onClose={onClose} 
+            header='About Me'
+            body='I am an experienced Software Engineer with well developed skills and eagerness to learn a bunch of new things that will contribute to the overall growth and development of myself. Additionally, I show keen interest in the realm of Cyber Security because I stand for the safety of applications and softwares in general. I believe, with my abilities as a software engineer and an avid learner of cyber security, I would be able to greatly contribute in future projects and work correspondingly and efficiently with any team that I am placed with.'
+        />
 
     </Stack>
   )

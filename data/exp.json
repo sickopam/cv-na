@@ -10,7 +10,8 @@
             "link": "https://idea-generator-dev.web.app/",
             "ic": "ExternalLinkIcon",
             "start": "06/23",
-            "end": "12/23"
+            "end": "12/23",
+            "ss": ["assets/umkmass/ss1.png", "assets/umkmass/ss2.png", "assets/umkmass/ss3.png", "assets/umkmass/ss4.png", "assets/umkmass/ss5.png", "assets/umkmass/ss6.png", "assets/umkmass/ss7.png", "assets/umkmass/ss8.png", "assets/umkmass/ss9.png", "assets/umkmass/ss10.png"]
         },
         {
             "title": "Full-stack Developer",
