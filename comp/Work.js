@@ -16,7 +16,7 @@ export default function Work({ i }) {
       </Stack>
 
       <Wrap overflowX='scroll'>
-        <Flex width='50%' gap='.5rem'>
+        <Flex width={{base:'100%', md:'50%'}} gap='.5rem'>
             {i.ss.map((pic, idx) => (
                 <Image 
                     key={idx}

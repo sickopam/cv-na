@@ -16,9 +16,9 @@
         },
         {
             "id": 2,
-            "title": "MyRoute",
+            "title": "MEKRAS",
             "about": "",
-            "ss": ["/assets/figmass/ss1.png", "/assets/figmass/ss2.png", "/assets/figmass/ss3.png", "/assets/figmass/ss4.png"],
+            "ss": ["/assets/musfest/ss1.png", "/assets/musfest/ss2.png", "/assets/musfest/ss3.png"],
             "role": "Full-stack Developer",
             "start": "11/22",
             "end": "06/23",
@@ -29,6 +29,19 @@
         },
         {
             "id": 3,
+            "title": "Off---White",
+            "about": "",
+            "ss": ["/assets/gdscss/ss1.png", "/assets/gdscss/ss2.png", "/assets/gdscss/ss3.png", "/assets/gdscss/ss4.png", "/assets/gdscss/ss5.png"],
+            "role": "Full-stack Developer",
+            "dates": ["06/23", "12/23"],
+            "members": ["Naufal Abiyyu"],
+            "overview": [],
+            "link": "https://idea-generator-dev.web.app/",
+            "clg": [],
+            "stack": []
+        },
+        {
+            "id": 4,
             "title": "PEMIRA",
             "about": "",
             "ss": ["/assets/pemirass/ss1.png", "/assets/pemirass/ss2.png", "/assets/pemirass/ss3.png", "/assets/pemirass/ss4.png", "/assets/pemirass/ss5.png", "/assets/pemirass/ss6.png", "/assets/pemirass/ss7.png", "/assets/pemirass/ss8.png", "/assets/pemirass/ss9.png"],
