@@ -35,7 +35,7 @@
             "role": "Front-end Developer",
             "start": "10/22",
             "end": "12/22",            
-            "members": ["Naufal Abiyyu"],
+            "members": ["Naufal Abiyyu", "Muhammad Rifqi Fameizy", "Antonius Teddy Kurniawan", "Jonathan Edmund", "Jovinca Claudia", "Josiah Farrel Suwito"],
             "overview": ["Frontend Development", "UI/UX", "Dynamic Website"],
             "clg": "Due to design complexity as an early frontend developer at that time, I found it quite difficult to implement the designs, ensuring responsiveness and dynamic web.",
             "stack": ["React.js", "TailwindCSS", "Axios API", "JavaScript"]

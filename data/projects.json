@@ -8,14 +8,14 @@
             "link": "https://sickopam.github.io/makmuresume",
             "ic": "ExternalLinkIcon",
             "desc": ["Developed a custom CV website for the restaurant industry using React.js and CSS, enhancing user interaction and style.", "Implemented and refined React state management, laying groundwork for future functionality improvements."],
-            "stack": ["React.js", "CSS"]
-
+            "stack": ["React.js", "CSS"],
+            "ss": ["/assets/makmurass/ss1.png", "/assets/makmurass/ss2.png", "/assets/makmurass/ss3.png"]
         },
         {
             "idx": 2,
             "title": "Music Festival Model Website",
             "date": "10/22",
-            "desc": ["Created a model website for music festivals in Indonesia."],
+            "desc": ["A model website for music festivals in Indonesia, made with responsiveness using React.js. Completed as a frontend development class project."],
             "stack": ["React.js", "TailwindCSS", "Data-AOS"],
             "ss": ["/assets/musfest/ss1.png", "/assets/musfest/ss2.png", "/assets/musfest/ss3.png"]
         },
@@ -29,14 +29,14 @@
         },
         {
             "idx": 4,
-            "title": "Prototype Personal Website",
+            "title": "Prototype Personal Portfolio",
             "date": "07/22",
             "id": "hyperlink",
             "link": "https://sickopam.github.io/fin",
             "ic": "ExternalLinkIcon",
             "desc": ["Developed my first personal website using React.js, TailwindCSS, and Framer-Motion, achieving a dynamic interface and modern design.", "Discontinued the initial website prototype due to project structure issues, resulting in unresponsiveness and other flaws."],
-            "stack": ["React.js", "TailwindCSS", "Framer-Motion"]
-
+            "stack": ["React.js", "TailwindCSS", "Framer-Motion"],
+            "ss": ["/assets/finass/ss1.png", "/assets/finass/ss2.png", "/assets/finass/ss3.png", "/assets/finass/ss4.png", "/assets/finass/ss5.png"]
         }
     ]
 }

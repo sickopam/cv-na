@@ -14,7 +14,9 @@ export default function Project({ i }) {
             <Text 
             ml={{base: '1rem', sm:'5rem'}}
             w='fit-content'
-            id='hyperlink'
+            id='clickable'
+            _hover={{ml: '2.5rem'}}
+            transition='ease-in-out .2s'
             onClick={() => router.push('/')} 
             fontSize={{base: 'lg', md: '3xl'}}
             >&lt; {i.title}</Text>
@@ -45,12 +47,14 @@ export default function Project({ i }) {
                 <Stack spacing='1rem'>
                 <Box>
                     <Text>Role</Text>
-                    <Text className='shadowtext'>{i.role}</Text>
+                    {i.role.map((roles, idx) => (
+                    <Text key={idx} className='shadowtext'>{roles}</Text>
+                    ))}
                 </Box>
 
                 <Box>
                     <Text>Date</Text>
-                    <Text className='shadowtext'>{i.start} – {i.end}</Text>
+                    <Text className='shadowtext'>{i.date}</Text>
                 </Box>
 
                 <Box>
@@ -69,28 +73,30 @@ export default function Project({ i }) {
 
                 {i.link && (
                     <Box>
-                    <Text>Link</Text>
-                    <a href={i.link} target='_blank'>
-                        <Text className='shadowtext' id='hyperlink' fontSize={{base: 'sm', sm: 'md'}}>{i.title}</Text>
-                    </a>
+                        <Text>Publication Link</Text>
+                        <Box w='fit-content'>
+                            <a href={i.link} target='_blank'>
+                                <Text className='shadowtext' id='hyperlink' fontSize={{base: 'sm', sm: 'md'}}>{i.title}</Text>
+                            </a>
+                        </Box>  
                     </Box>
                 )}
                 </Stack>
 
                 <Stack spacing='1rem'>
-                <Box>
-                    <Text>Challenges</Text>
-                    <Text textAlign='justify' className='shadowtext'>{i.clg}</Text>
-                </Box>
+                    <Box>
+                        <Text>Results</Text>
+                        <Text textAlign='justify' className='shadowtext'>{i.res}</Text>
+                    </Box>
 
-                <Box>
-                    <Text>Stack</Text>
-                    <SimpleGrid columns='3' w={{base:'100%', md:'60%'}}>
-                    {i.stack.map((stk, idx) => (
-                    <Text key={idx} className='shadowtext'>{stk}</Text>
-                    ))}          
-                    </SimpleGrid>
-                </Box>
+                    <Box>
+                        <Text>Stack</Text>
+                        <SimpleGrid columns='3' w={{base:'100%', md:'60%'}}>
+                        {i.stack.map((stk, idx) => (
+                        <Text key={idx} className='shadowtext'>{stk}</Text>
+                        ))}          
+                        </SimpleGrid>
+                    </Box>
 
                 </Stack>
             </SimpleGrid>

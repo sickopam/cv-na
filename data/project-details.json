@@ -2,56 +2,53 @@
     "project": [
         {
             "id": 1,
-            "title": "KESAN-IDEA",
-            "about": "Kansei Engineering-based System for Agroindustry is a platform dedicated to help users develop and track individual ideas and overall to boost creativity in Indonesia. While there are a lot of creative people within our country, brilliant ideas tend to get lost or forgotten despite their beneficial potential. KESAN-IDEA exsits to ensure that ideas do not vanish and are kept track for further developments and birth of other related ideas.",
-            "ss": ["/assets/umkmass/ss1.png", "/assets/umkmass/ss2.png", "/assets/umkmass/ss3.png", "/assets/umkmass/ss4.png", "/assets/umkmass/ss5.png", "/assets/umkmass/ss6.png", "/assets/umkmass/ss7.png", "/assets/umkmass/ss8.png", "/assets/umkmass/ss9.png", "/assets/umkmass/ss10.png"],
-            "role": "Full-stack Developer",
-            "start": "06/23",
-            "end": "12/23",
-            "members": ["Naufal Abiyyu", "Muhammad Rifqi Fameizy"],
-            "overview": ["Full-stack Developing", "Project Management"],
-            "link": "https://idea-generator-dev.web.app/",
-            "clg": "As a research project with high functional complexity, it was challenging at first for us to set up the backend and database, as well as the skeleton structure of the frontend. Additionally, as a project with high demand for students and researchers, constant updates were required within a narrow timespan, therefore, time was one of the main issues considering classworks and exams.",
-            "stack": ["React.js", "ChakraUI", "Axios API", "JavaScript", "Python", "Firebase"]
+            "title": "Application Portfolio",
+            "about": "This website was created for my application to a bar – MAKMUR – in Yogyakarta, Indonesia. My intentions were to stand out as an applicant and to propose an idea for a website for MAKMUR. The website was made with simplicity and an aesthetic appeal.",
+            "ss": ["/assets/makmurass/ss1.png", "/assets/makmurass/ss2.png", "/assets/makmurass/ss3.png"],
+            "role": ["Frontend Developer", "UI/UX Designer"],
+            "date": "04/23",
+            "members": ["Naufal Abiyyu"],
+            "overview": ["Frontend Development", "UI/UX", "Github"],
+            "link": "https://sickopam.github.io/makmuresume/",
+            "res": "Completed in two days and submitted my application in time. However, I unfortunately did not receive any feedback from the restaurant.",
+            "stack": ["React.js", "CSS"]
         },
         {
             "id": 2,
             "title": "MEKRAS",
             "about": "",
             "ss": ["/assets/musfest/ss1.png", "/assets/musfest/ss2.png", "/assets/musfest/ss3.png"],
-            "role": "Full-stack Developer",
-            "start": "11/22",
-            "end": "06/23",
-            "members": ["Naufal Abiyyu", "Anas Banta Seutia", "Verissa Lavanya", "Nerpa"],
-            "overview": ["UI/UX"],
-            "clg": [],
-            "stack": []
+            "role": ["Frontend Developer", "UI/UX Designer"],
+            "date": "10/22",
+            "members": ["Naufal Abiyyu"],
+            "overview": ["Frontend Development", "UI/UX"],
+            "res": "",
+            "stack": ["React.js", "TailwindCSS", "Data-AOS"]
         },
         {
             "id": 3,
             "title": "Off---White",
             "about": "",
             "ss": ["/assets/gdscss/ss1.png", "/assets/gdscss/ss2.png", "/assets/gdscss/ss3.png", "/assets/gdscss/ss4.png", "/assets/gdscss/ss5.png"],
-            "role": "Full-stack Developer",
-            "dates": ["06/23", "12/23"],
+            "role": ["Frontend Developer"],
+            "date": "09/22",
             "members": ["Naufal Abiyyu"],
-            "overview": [],
-            "link": "https://idea-generator-dev.web.app/",
-            "clg": [],
-            "stack": []
+            "overview": ["Frontend Development", "Responsiveness", "React State"],
+            "res": "",
+            "stack": ["Next.js", "TailwindCSS", "Axios API", "TypeScript"]
         },
         {
             "id": 4,
-            "title": "PEMIRA",
+            "title": "Prototype Personal Portfolio",
             "about": "",
-            "ss": ["/assets/pemirass/ss1.png", "/assets/pemirass/ss2.png", "/assets/pemirass/ss3.png", "/assets/pemirass/ss4.png", "/assets/pemirass/ss5.png", "/assets/pemirass/ss6.png", "/assets/pemirass/ss7.png", "/assets/pemirass/ss8.png", "/assets/pemirass/ss9.png"],
-            "role": "Full-stack Developer",
-            "dates": ["06/23", "12/23"],
+            "ss": ["/assets/finass/ss1.png", "/assets/finass/ss2.png", "/assets/finass/ss3.png", "/assets/finass/ss4.png", "/assets/finass/ss5.png"],
+            "role": ["Full-stack Developer", "UI/UX Designer"],
+            "date": "07/22",
             "members": ["Naufal Abiyyu"],
-            "overview": [],
-            "link": "https://idea-generator-dev.web.app/",
-            "clg": [],
-            "stack": []
+            "overview": ["Frontend Development", "Custom Animation", "Github", "UI/UX"],
+            "link": "https://sickopam.github.io/fin/",
+            "res": "",
+            "stack": ["React.js", "TailwindCSS", "CSS", "Framer Motion", "JavaScript"]
         }
     ]
 }

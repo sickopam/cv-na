@@ -73,9 +73,11 @@ export default function Work({ i }) {
             {i.link && (
               <Box>
                 <Text>Publication Link</Text>
-                <a href={i.link} target='_blank'>
-                    <Text className='shadowtext' id='hyperlink' fontSize={{base: 'sm', sm: 'md'}}>{i.title}</Text>
-                </a>
+                <Box w='fit-content'>
+                  <a href={i.link} target='_blank'>
+                      <Text className='shadowtext' id='hyperlink' fontSize={{base: 'sm', sm: 'md'}}>{i.title}</Text>
+                  </a>
+                </Box>
               </Box>
             )}
           </Stack>

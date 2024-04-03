@@ -46,7 +46,7 @@ export default function Projects() {
                         </Flex>
                         {e.ss && (
                             <Wrap overflowX='scroll'>
-                                <Flex width='40%' gap='.5rem'>
+                                <Flex width='55%' gap='.5rem'>
                                     {e.ss.map((pic, i) => (
                                         <Image 
                                             key={i} 
