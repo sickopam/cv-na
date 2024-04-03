@@ -32,7 +32,7 @@ button {
 }
 
 #hyperlink:hover {
-  text-decoration: 1px underline;
+  text-decoration: underline;
   cursor: pointer;
 }
 

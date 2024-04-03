@@ -11,7 +11,11 @@ export default function About() {
         <Stack spacing='.8rem'>
             <Text fontSize={{base: 'sm', sm: 'md'}}>About</Text>
             <Text id='bout' className='shadowtext'>A Double Degree Computer Science & Artificial student of University of Birmingham & Gadjah Mada University focused on Software Engineering and Cyber Security who is set to graduate in Summer of 2025. Based in Birmingham, originated in Indonesia.</Text>
-            <Text onClick={onOpen} width='fit-content' id='hyperlink' fontSize='xs'>Show full &gt;</Text>
+            <Text 
+            id='hyperlink'
+            onClick={onOpen} 
+            width='fit-content' 
+            fontSize='xs'>Show full &gt;</Text>
         </Stack>
 
         <TextMod
