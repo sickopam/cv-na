@@ -15,7 +15,9 @@ export default function Work({ i }) {
         <Text 
         ml={{base: '1rem', sm:'5rem'}}
         w='fit-content'
-        id='hyperlink'
+        id='clickable'
+        _hover={{ml: '2.5rem'}}
+        transition='ease-in-out .2s'
         onClick={() => router.push('/')} 
         fontSize={{base: 'lg', md: '3xl'}}
         >&lt; {i.title}</Text>
