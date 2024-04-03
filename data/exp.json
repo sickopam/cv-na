@@ -1,6 +1,7 @@
 {
     "work": [
         {
+            "idx": 1,
             "title": "Full-stack Developer",
             "comp": "UMKM Riset (Campus Research)",
             "loc": "Gadjah Mada University – Yogyakarta, Indonesia",
@@ -11,9 +12,10 @@
             "ic": "ExternalLinkIcon",
             "start": "06/23",
             "end": "12/23",
-            "ss": ["assets/umkmass/ss1.png", "assets/umkmass/ss2.png", "assets/umkmass/ss3.png", "assets/umkmass/ss4.png", "assets/umkmass/ss5.png", "assets/umkmass/ss6.png", "assets/umkmass/ss7.png", "assets/umkmass/ss8.png", "assets/umkmass/ss9.png", "assets/umkmass/ss10.png"]
+            "ss": ["/assets/umkmass/ss1.png", "/assets/umkmass/ss2.png", "/assets/umkmass/ss3.png", "/assets/umkmass/ss4.png", "/assets/umkmass/ss5.png", "/assets/umkmass/ss6.png", "/assets/umkmass/ss7.png", "/assets/umkmass/ss8.png", "/assets/umkmass/ss9.png", "/assets/umkmass/ss10.png"]
         },
         {
+            "idx": 2,
             "title": "Full-stack Developer",
             "comp": "Google Developer Students Club",
             "loc": "Gadjah Mada University – Yogyakarta, Indonesia",
@@ -24,6 +26,7 @@
             "ss": ["/assets/figmass/ss1.png", "/assets/figmass/ss2.png", "/assets/figmass/ss3.png", "/assets/figmass/ss4.png"]
         },
         {
+            "idx": 3,
             "title": "Front-end Developer",
             "comp": "HIMAKOM (Computer Science Student Association)",
             "loc": "Gadjah Mada University – Yogyakarta, Indonesia",

@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import { Flex, Stack, Text, List, Box, SimpleGrid, useDisclosure, Wrap, Image } from '@chakra-ui/react'
+import { useRouter } from 'next/router';
+import { Flex, Stack, Text, List, SimpleGrid, useDisclosure, Wrap, Image } from '@chakra-ui/react'
 
-import data from '../data/exp.json'
+import data from '.././data/exp.json'
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import Img from '@/comp/imgMod';
 
@@ -17,6 +18,7 @@ export default function Experience() {
         setSelectImg(imgSrc)
         onOpen()
     }
+    const router = useRouter()
     
   return (
     <Stack spacing='3rem' w='fit-content'>
@@ -24,6 +26,7 @@ export default function Experience() {
             <Text>Work Experience</Text>
             {data.work.map((e, i) => (
                 <List key={i}
+                onClick={() => router.push(`/work-details/${e.idx}`)}
                 bg='#3b3b3b' 
                 rounded='lg' 
                 p={3} 

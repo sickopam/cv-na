@@ -22,9 +22,7 @@ import {
             <ModalBody>
                 <Text className='shadowtext' textAlign='justify'>{body}</Text>
             </ModalBody>
-            <ModalFooter>
-                <Text className='shadowtext' textAlign='left'>{footer}</Text>
-            </ModalFooter>
+            <ModalFooter/>
         </ModalContent>
       </Modal>
     )

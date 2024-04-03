@@ -11,6 +11,13 @@
 
         },
         {
+            "title": "Music Festival Model Website",
+            "date": "10/22",
+            "desc": ["Created a model website for music festivals in Indonesia."],
+            "stack": ["React.js", "TailwindCSS", "Data-AOS"],
+            "ss": ["/assets/musfest/ss1.png", "/assets/musfest/ss2.png", "/assets/musfest/ss3.png"]
+        },
+        {
             "title": "Google Developer Students Club Application",
             "date": "09/22",
             "desc": ["Developed a skeleton copy of 'Off-White' website using Next.js and TailwindCSS.", "Integrated web responsiveness using CSS media queries."],

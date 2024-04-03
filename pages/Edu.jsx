@@ -1,6 +1,6 @@
 import React from 'react'
 import { Stack, SimpleGrid, Flex, List, Text } from '@chakra-ui/react'
-import data from '../data/edu.json'
+import data from '.././data/edu.json'
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 const iconMap = {

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import data from '../data/projects.json'
+import { useRouter } from 'next/router';
+import data from '.././data/projects.json'
 import { Stack, Flex, useDisclosure, List, SimpleGrid, Text, Image, Wrap } from '@chakra-ui/react'
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import Img from '@/comp/imgMod';
@@ -16,12 +17,14 @@ export default function Projects() {
         setSelectImg(imgSrc)
         onOpen()
     }
+    const router = useRouter()
     
   return (
     <Stack spacing='1.2rem' id='bout'>
         <Text fontSize={{base: 'sm', sm: 'md'}}>Projects</Text>
         {data.prj.map((e, i) => (
             <List key={i}
+            onClick={() => router.push(`/project-details`)}
             bg='#3b3b3b' 
             rounded='lg' 
             p={3} 

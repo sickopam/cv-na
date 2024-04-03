@@ -1,11 +1,11 @@
 import { Stack } from '@chakra-ui/react'
 import Head from 'next/head'
-import Header from '@/sec/Header'
-import About from '@/sec/About'
-import Projects from '@/sec/Projects'
-import Edu from '@/sec/Edu'
-import Contact from '@/sec/Contact'
-import Experience from '@/sec/Experience'
+import Header from '@/pages/Header'
+import About from '@/pages/About'
+import Projects from '@/pages/Projects'
+import Edu from '@/pages/Edu'
+import Contact from '@/pages/Contact'
+import Experience from '@/pages/Experience'
 
 export default function Home() {
   return (

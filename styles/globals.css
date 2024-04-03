@@ -21,7 +21,7 @@ button {
 }
 
 #hyperlink:hover {
-  text-decoration: 1px #f5f5f5 underline;
+  text-decoration: 1px underline;
   cursor: pointer;
 }
 

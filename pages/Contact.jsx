@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '../data/contacts.json'
+import data from '.././data/contacts.json'
 import { Stack, Flex, List, SimpleGrid, Text } from '@chakra-ui/react'
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
