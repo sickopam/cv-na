@@ -24,7 +24,7 @@ export default function Projects() {
         <Text fontSize={{base: 'sm', sm: 'md'}}>Projects</Text>
         {data.prj.map((e, i) => (
             <List key={i}
-            onClick={() => router.push(`/project-details`)}
+            onClick={() => router.push(`/project-details/${e.idx}`)}
             bg='#3b3b3b' 
             rounded='lg' 
             p={3} 
@@ -44,8 +44,8 @@ export default function Projects() {
                                 )}
                             </Flex>
                         </Flex>
-                        {e.desc.map(i => (                            
-                            <Text fontSize='xs' className='shadowtext'>{i}</Text>
+                        {e.desc.map((i, idx) => (                            
+                            <Text key={idx} fontSize='xs' className='shadowtext'>{i}</Text>
                         ))}
                         <Flex gap='.5rem'>
                             {e.stack.map((s, i) => (
