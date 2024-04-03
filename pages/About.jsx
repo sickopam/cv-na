@@ -15,7 +15,7 @@ export default function About() {
             id='hyperlink'
             onClick={onOpen} 
             width='fit-content' 
-            fontSize='sm'>Show full &gt;</Text>
+            fontSize={{base:'xs', sm:'sm'}}>Show full &gt;</Text>
         </Stack>
 
         <TextMod
