@@ -6,6 +6,17 @@
   color: #a5a5a5;
 }
 
+#navbar {
+  position: sticky;
+  top: 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background: rgba(38, 38, 38, 0.42);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+  border: 1px solid rgba(38, 38, 38, 0.3);}
+
 #cv {
   padding: 2rem;
   background: #3b3b3b;

@@ -1,31 +1,22 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useRouter } from 'next/router';
-import { Flex, Stack, Text, List, SimpleGrid, useDisclosure, Wrap, Image } from '@chakra-ui/react'
-
+import { Flex, Stack, Text, List, SimpleGrid, Wrap, Image } from '@chakra-ui/react'
 import data from '.././data/exp.json'
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import Img from '@/comp/imgMod';
 
 const iconMap = {
   "ExternalLinkIcon": ExternalLinkIcon,
 };
 
 export default function Experience() {
-
-    const {isOpen, onOpen, onClose} = useDisclosure()
-    const [selectImg, setSelectImg] = useState(null)
-    const showImg = (imgSrc) => {
-        setSelectImg(imgSrc)
-        onOpen()
-    }
     const router = useRouter()
-    
   return (
     <Stack spacing='3rem' w='fit-content'>
         <Stack spacing='1.2rem' id='bout'>
             <Text>Work Experience</Text>
             {data.work.map((e, i) => (
                 <List key={i}
+                id='clickable'
                 onClick={() => router.push(`/work-details/${e.idx}`)}
                 bg='#3b3b3b' 
                 rounded='lg' 
@@ -63,7 +54,6 @@ export default function Experience() {
                                             <Image 
                                                 id='clickable' 
                                                 key={i}
-                                                onClick={() => showImg(pic)} 
                                                 rounded='lg' 
                                                 src={pic}
                                             />
@@ -71,7 +61,6 @@ export default function Experience() {
                                     </Flex>
                                 </Wrap>
                             )}
-                            <Img isOpen={isOpen} onClose={onClose} selectImg={selectImg}/>
                         </Stack>
                     </SimpleGrid>
                 </List>

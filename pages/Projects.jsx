@@ -1,29 +1,21 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useRouter } from 'next/router';
 import data from '.././data/projects.json'
-import { Stack, Flex, useDisclosure, List, SimpleGrid, Text, Image, Wrap } from '@chakra-ui/react'
+import { Stack, Flex, List, SimpleGrid, Text, Image, Wrap } from '@chakra-ui/react'
 import { ExternalLinkIcon } from "@chakra-ui/icons";
-import Img from '@/comp/imgMod';
 
 const iconMap = {
   "ExternalLinkIcon": ExternalLinkIcon,
 };
 
 export default function Projects() {
-
-    const {isOpen, onOpen, onClose} = useDisclosure()
-    const [selectImg, setSelectImg] = useState(null)
-    const showImg = (imgSrc) => {
-        setSelectImg(imgSrc)
-        onOpen()
-    }
     const router = useRouter()
-    
   return (
     <Stack spacing='1.2rem' id='bout'>
         <Text fontSize={{base: 'sm', sm: 'md'}}>Projects</Text>
         {data.prj.map((e, i) => (
             <List key={i}
+            id='clickable'
             onClick={() => router.push(`/project-details/${e.idx}`)}
             bg='#3b3b3b' 
             rounded='lg' 
@@ -57,9 +49,7 @@ export default function Projects() {
                                 <Flex width='40%' gap='.5rem'>
                                     {e.ss.map((pic, i) => (
                                         <Image 
-                                            id='clickable'
                                             key={i} 
-                                            onClick={() => showImg(pic)} 
                                             rounded='lg' 
                                             src={pic}
                                         />
@@ -67,7 +57,6 @@ export default function Projects() {
                                 </Flex>
                             </Wrap>
                         )}
-                        <Img isOpen={isOpen} onClose={onClose} selectImg={selectImg}/>
                     </Stack>
                 </SimpleGrid>
             </List>
