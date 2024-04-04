@@ -14,7 +14,7 @@ export default function Edu() {
             <Text fontSize={{base: 'sm', sm: 'md'}}>Education</Text>
             {data.edu.map((e, i) => (
                 <List key={i}>
-                    <SimpleGrid columns={{base: 1, sm: 2}}>
+                    <SimpleGrid spacing='.4rem' columns={{base: 1, sm: 2}}>
                         <Stack 
                         spacing='.4rem'
                         fontSize='smaller' >
