@@ -21,7 +21,7 @@ export default function Projects() {
             rounded='lg' 
             p={3} 
             _hover={{bg: '#525252'}} transition='ease-in-out .2s'>
-                <SimpleGrid columns={{base: 1, sm: 2}} spacing={{base: '1rem', sm: '0rem'}}>
+                <SimpleGrid columns={{base: 1, lg: 2}} spacing={{base: '1rem', lg: '0rem'}}>
                     <Stack spacing='1rem'>
                             <Text fontSize='smaller' className='shadowtext'>{e.date}</Text>
                             <Stack>

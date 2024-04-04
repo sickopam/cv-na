@@ -1,10 +1,13 @@
 import React from 'react'
-import { Box, List, Stack, Text, Flex, Wrap } from '@chakra-ui/react'
+import { Box, Stack, Text, Flex, Wrap, Tooltip } from '@chakra-ui/react'
 import data from '.././data/tools.json'
+import Link from 'next/link'
+import { Poppins } from 'next/font/google'
+
+const poppins = Poppins({subsets: ["latin"], weight: "300"})
 
 export default function Skills() {
 
-    
     return (
         <Stack id='bout'>
             <Text>Tools</Text>
@@ -12,9 +15,16 @@ export default function Skills() {
                 <Wrap overflowX='scroll'>
                     <Flex width='55%' gap={3}>
                         {data.tools.map((e, idx) => (
-                            <Box id='icon' rounded='md'>
-                                <i key={idx} className={e.tool}/>
-                            </Box>
+                            <Link key={idx} href={e.link} target='_blank'>
+                                <Tooltip 
+                                className={poppins.className} 
+                                label={e.label} 
+                                bg='#6f6f6f' color='#f5f5f5'>
+                                    <Box id='icon' rounded='md'>
+                                        <i  className={e.tool}/>
+                                    </Box>
+                                </Tooltip>
+                            </Link>
                         ))}
                     </Flex>
                 </Wrap>

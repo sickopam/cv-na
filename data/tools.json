@@ -2,111 +2,138 @@
     "tools": [
         {
             "tool": "devicon-axios-plain",
-            "link": ""
+            "link": "https://axios-http.com/",
+            "label": "Axios"
         },
         {
             "tool": "devicon-bootstrap-plain",
-            "link": ""
+            "link": "https://getbootstrap.com",
+            "label": "Bootstrap"
         },
         {
             "tool": "devicon-c-plain",
-            "link": ""
+            "link": "https://www.cprogramming.com",
+            "label": "C"
         },
         {
             "tool": "devicon-cplusplus-plain",
-            "link": ""
+            "link": "https://isocpp.org",
+            "label": "C++"
+        },        
+        {
+            "tool": "devicon-html5-plain",
+            "link": "https://html5.org",
+            "label": "HTML"
         },
         {
             "tool": "devicon-css3-plain",
-            "link": ""
+            "link": "https://css3.com",
+            "label": "CSS"
         },
         {
             "tool": "devicon-figma-plain",
-            "link": ""
+            "link": "https://www.figma.com",
+            "label": "Figma"
         },
         {
             "tool": "devicon-firebase-plain",
-            "link": ""
+            "link": "https://firebase.google.com",
+            "label": "Firebase"
         },
         {
             "tool": "devicon-framermotion-plain",
-            "link": ""
+            "link": "https://www.framer.com/motion/",
+            "label": "Framer Motion"
         },
         {
             "tool": "devicon-git-plain",
-            "link": ""
+            "link": "https://git-scm.com",
+            "label": "Git"
         },
         {
             "tool": "devicon-github-plain",
-            "link": ""
+            "link": "https://github.com",
+            "label": "Github"
         },
         {
             "tool": "devicon-gitlab-plain",
-            "link": ""
+            "link": "https://gitlab.com",
+            "label": "Gitlab"
         },
         {
             "tool": "devicon-haskell-plain",
-            "link": ""
-        },
-        {
-            "tool": "devicon-html5-plain",
-            "link": ""
+            "link": "https://www.haskell.org",
+            "label": "Haskell"
         },
         {
             "tool": "devicon-java-plain",
-            "link": ""
+            "link": "http://www.java.com",
+            "label": "Java"
         },
         {
             "tool": "devicon-javascript-plain",
-            "link": ""
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+            "label": "JavaScript"
+        },
+        {
+            "tool": "devicon-typescript-plain",
+            "link": "https://www.typescriptlang.org",
+            "label": "TypeScript"
         },
         {
             "tool": "devicon-json-plain",
-            "link": ""
+            "link": "https://www.json.org/json-en.html",
+            "label": "JSON"  
         },
         {
             "tool": "devicon-jupyter-plain",
-            "link": ""
+            "link": "https://jupyter.org",
+            "label": "Jupyter"
         },
         {
             "tool": "devicon-linux-plain",
-            "link": ""
-        },
-        {
-            "tool": "devicon-mongodb-plain",
-            "link": ""
+            "link": "https://www.linux.org",
+            "label": "Linux"
         },
         {
             "tool": "devicon-mysql-plain",
-            "link": ""
+            "link": "https://www.mysql.com",
+            "label": "MySQL"
         },
         {
             "tool": "devicon-nextjs-plain",
-            "link": ""
+            "link": "https://nextjs.org",
+            "label": "Nextjs"
         },
         {
             "tool": "devicon-npm-original-wordmark",
-            "link": ""
+            "link": "https://www.npmjs.com",
+            "label": "npm"
         },
         {
             "tool": "devicon-python-plain",
-            "link": ""
+            "link": "https://www.python.org",
+            "label": "Python"
         },
         {
             "tool": "devicon-react-plain",
-            "link": ""
+            "link": "https://react.dev",
+            "label": "React"
         },
         {
             "tool": "devicon-tailwindcss-plain",
-            "link": ""
+            "link": "https://tailwindcss.com",
+            "label": "TailwindCSS"
         },
         {
             "tool": "devicon-vercel-plain",
-            "link": ""
+            "link": "https://vercel.com/",
+            "label": "Vercel"
         },
         {
             "tool": "devicon-vscode-plain",
-            "link": ""
+            "link": "https://code.visualstudio.com",
+            "label": "VSCode"
         }
     ]
 }
