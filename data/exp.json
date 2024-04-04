@@ -6,7 +6,7 @@
             "comp": "UMKM Riset (Campus Research)",
             "loc": "Gadjah Mada University – Yogyakarta, Indonesia",
             "desc": "A 6-month campus research project on idea development based on mood and time using React.js on Frontend side, Python and Firebase on Backend side. Showcased swift work pace despite brief update time intervals.",
-            "stack": ["React.js", "ChakraUI", "Axios API", "JavaScript", "Python"],
+            "stack": ["React.js", "JavaScript", "Python", "Firebase"],
             "id": "hyperlink",
             "link": "https://idea-generator-dev.web.app/",
             "ic": "ExternalLinkIcon",
