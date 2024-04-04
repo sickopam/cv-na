@@ -11,9 +11,9 @@ export default function Skills() {
     return (
         <Stack id='bout'>
             <Text>Tools</Text>
-            <Box rounded='lg' p={2} bg='#3b3b3b'>
+            <Box rounded='lg' p={{base: 2, md: 3}} bg='#3b3b3b'>
                 <Wrap overflowX='scroll'>
-                    <Flex width='55%' gap={3}>
+                    <Flex width='55%' gap={{base: 2, md: 3}}>
                         {data.tools.map((e, idx) => (
                             <Link key={idx} href={e.link} target='_blank'>
                                 <Tooltip 

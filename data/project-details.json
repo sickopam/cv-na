@@ -16,38 +16,38 @@
         {
             "id": 2,
             "title": "MEKRAS",
-            "about": "",
+            "about": "An Indonesian music festival prototype website created using React.js and TailwindCSS. Aimed to gather all music festival information within one website for one country. Completed as a Frontend class project.",
             "ss": ["/assets/musfest/ss1.png", "/assets/musfest/ss2.png", "/assets/musfest/ss3.png"],
             "role": ["Frontend Developer", "UI/UX Designer"],
             "date": "10/22",
             "members": ["Naufal Abiyyu"],
             "overview": ["Frontend Development", "UI/UX"],
-            "res": "",
+            "res": "Despite having no functionality due to project requirement of only frontend implementation, this website has potential to be functional later in the future.",
             "stack": ["React.js", "TailwindCSS", "Data-AOS"]
         },
         {
             "id": 3,
             "title": "Off---White",
-            "about": "",
+            "about": "A skeleton fashion designer brand online apparel copy website created using Next.js, TailwindCSS, and Axios API. Completed as an application project for Google Developers Students Club.",
             "ss": ["/assets/gdscss/ss1.png", "/assets/gdscss/ss2.png", "/assets/gdscss/ss3.png", "/assets/gdscss/ss4.png", "/assets/gdscss/ss5.png"],
             "role": ["Frontend Developer"],
             "date": "09/22",
             "members": ["Naufal Abiyyu"],
             "overview": ["Frontend Development", "Responsiveness", "React State"],
-            "res": "",
+            "res": "Website successfully achieved responsiveness, custom stylings, and more frontend features. Approved of position as Hacker at GDSC.",
             "stack": ["Next.js", "TailwindCSS", "Axios API", "TypeScript"]
         },
         {
             "id": 4,
             "title": "Prototype Personal Portfolio",
-            "about": "",
+            "about": "My first personal project, a prototype personal portfolio created with React.js. TailwindCSS was used for stylings and Framer Motion was used for custom animation such as custom cursor along with hover animation.",
             "ss": ["/assets/finass/ss1.png", "/assets/finass/ss2.png", "/assets/finass/ss3.png", "/assets/finass/ss4.png", "/assets/finass/ss5.png"],
             "role": ["Full-stack Developer", "UI/UX Designer"],
             "date": "07/22",
             "members": ["Naufal Abiyyu"],
             "overview": ["Frontend Development", "Custom Animation", "Github", "UI/UX"],
             "link": "https://sickopam.github.io/fin/",
-            "res": "",
+            "res": "Due to structure issues, website lacks responsiveness. Nonetheless, website looks flawless on desktop.",
             "stack": ["React.js", "TailwindCSS", "CSS", "Framer Motion", "JavaScript"]
         }
     ]
