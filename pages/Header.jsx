@@ -74,9 +74,9 @@ export default function Header() {
         bottom='5%'
         right='5%'
         zIndex='10'
-        bg='#3b3b3b'
-        _hover={{ bg: '#525252' }}
-        color='#a5a5a5'
+        bg='#a5a5a5'
+        color='#525252'
+        _hover={{ bg: '#525252', color: '#a5a5a5' }}
         rounded='full'
         opacity={opacity}
         visibility={opacity ? 'visible' : 'hidden'}
