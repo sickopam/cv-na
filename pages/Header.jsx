@@ -24,7 +24,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const showBtn = window.scrollY > 1200;
+      const showBtn = window.scrollY > 1000;
       setOpacity(showBtn ? 1 : 0);
     };
     window.addEventListener('scroll', handleScroll);
