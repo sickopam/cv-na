@@ -1,0 +1,112 @@
+{
+    "tools": [
+        {
+            "tool": "devicon-axios-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-bootstrap-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-c-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-cplusplus-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-css3-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-figma-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-firebase-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-framermotion-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-git-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-github-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-gitlab-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-haskell-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-html5-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-java-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-javascript-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-json-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-jupyter-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-linux-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-mongodb-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-mysql-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-nextjs-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-npm-original-wordmark",
+            "link": ""
+        },
+        {
+            "tool": "devicon-python-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-react-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-tailwindcss-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-vercel-plain",
+            "link": ""
+        },
+        {
+            "tool": "devicon-vscode-plain",
+            "link": ""
+        }
+    ]
+}

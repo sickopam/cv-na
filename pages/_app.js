@@ -18,10 +18,13 @@ const poppins = Poppins({ subsets: ['latin'], weight: '300' })
 
 export default function App({ Component, pageProps }) {
   return (
-    <ChakraProvider theme={theme}>
-      <main className={poppins.className}>
-        <Component {...pageProps} />
-      </main>
-    </ChakraProvider>
+    <>
+      <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />    
+      <ChakraProvider theme={theme}>
+        <main className={poppins.className}>
+          <Component {...pageProps} />
+        </main>
+      </ChakraProvider>
+    </>
   )
 }

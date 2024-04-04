@@ -1,6 +1,7 @@
 import { Stack } from '@chakra-ui/react'
 import Head from 'next/head'
 import Header from '@/pages/Header'
+import Skills from './Skills'
 import About from '@/pages/About'
 import Projects from '@/pages/Projects'
 import Edu from '@/pages/Edu'
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <Header/>
       <About/>
+      <Skills/>
       <Experience/>
       <Projects/>
       <Edu/>
