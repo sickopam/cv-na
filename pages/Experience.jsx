@@ -22,8 +22,19 @@ export default function Experience() {
                 rounded='lg' 
                 p={3} 
                 _hover={{bg: '#525252'}} transition='ease-in-out .2s'>
-                    <SimpleGrid columns={{base: 1, sm: 2}}>
-                        <Text fontSize='smaller' className='shadowtext'>{e.start} – {e.end}</Text>
+                    <SimpleGrid columns={{base: 1, sm: 2}} spacing={{base: '1rem', sm: '0rem'}}>
+                        <Stack spacing='1rem'>
+                            <Text fontSize='smaller' className='shadowtext'>{e.start} – {e.end}</Text>
+                            <Stack>
+                                <Text fontSize='sm'>Stack</Text>
+                                <Flex w='fit-content' gap={3}>
+                                    {e.stack.map((s, i) => (
+                                        <Text className='shadowtext' key={i} fontSize='xs'>{s}</Text>
+                                    ))}
+                                </Flex>
+                            </Stack>
+                        </Stack>
+                        
                         <Stack>
                             <Flex flexDir='column'>
                                 <Flex gap='.4rem'>
@@ -41,11 +52,6 @@ export default function Experience() {
 
                             <Text fontSize='smaller' className='shadowtext'>{e.loc}</Text>
                             <Text fontSize='xs' className='shadowtext'>{e.desc}</Text>
-                            <Flex gap='.5rem'>
-                                {e.stack.map((s, i) => (
-                                    <Text key={i} fontSize='xs'>{s}</Text>
-                                ))}
-                            </Flex>
 
                             {e.ss && (
                                 <Wrap overflowX='scroll'>

@@ -21,8 +21,18 @@ export default function Projects() {
             rounded='lg' 
             p={3} 
             _hover={{bg: '#525252'}} transition='ease-in-out .2s'>
-                <SimpleGrid columns={{base: 1, sm: 2}}>
-                    <Text fontSize='smaller' className='shadowtext'>{e.date}</Text>
+                <SimpleGrid columns={{base: 1, sm: 2}} spacing={{base: '1rem', sm: '0rem'}}>
+                    <Stack spacing='1rem'>
+                            <Text fontSize='smaller' className='shadowtext'>{e.date}</Text>
+                            <Stack>
+                                <Text fontSize='sm'>Stack</Text>
+                                <Flex w='fit-content' gap={3}>
+                                    {e.stack.map((s, i) => (
+                                        <Text className='shadowtext' key={i} fontSize='xs'>{s}</Text>
+                                    ))}
+                                </Flex>
+                            </Stack>
+                    </Stack>                    
                     <Stack>
                         <Flex flexDir='column'>
                             <Flex gap='.4rem'>
@@ -39,11 +49,6 @@ export default function Projects() {
                         {e.desc.map((i, idx) => (                            
                             <Text key={idx} fontSize='xs' className='shadowtext'>{i}</Text>
                         ))}
-                        <Flex gap='.5rem'>
-                            {e.stack.map((s, i) => (
-                                <Text key={i} fontSize='xs'>{s}</Text>
-                            ))}
-                        </Flex>
                         {e.ss && (
                             <Wrap overflowX='scroll'>
                                 <Flex width='55%' gap='.5rem'>
