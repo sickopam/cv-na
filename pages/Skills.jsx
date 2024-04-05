@@ -19,6 +19,7 @@ export default function Skills() {
                                 <Tooltip 
                                 className={poppins.className} 
                                 label={e.label} 
+                                rounded='md'
                                 bg='#6f6f6f' color='#f5f5f5'>
                                     <Box id='icon' rounded='md'>
                                         <i  className={e.tool}/>
