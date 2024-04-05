@@ -27,6 +27,13 @@
             "id": "hyperlink",
             "ic": "ExternalLinkIcon",
             "link": "mailto:naubiyyu@gmail.com"
+        },
+        {
+            "platform": "Mobile",
+            "name": "+447776619963",
+            "id": "hyperlink",
+            "ic": "ExternalLinkIcon",
+            "link": "tel:447776619963"
         }
     ]
 }
