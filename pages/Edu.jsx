@@ -2,18 +2,26 @@ import React from 'react'
 import { Stack, SimpleGrid, Flex, List, Text } from '@chakra-ui/react'
 import data from '.././data/edu.json'
 import { ExternalLinkIcon } from "@chakra-ui/icons";
+import { useRouter } from 'next/router';
 
 const iconMap = {
   "ExternalLinkIcon": ExternalLinkIcon,
 };
 
 export default function Edu() {
+    const router = useRouter()
   return (
     <Stack spacing='3rem'>
         <Stack spacing='1.2rem' id='bout'>
             <Text fontSize={{base: 'sm', sm: 'md'}}>Education</Text>
             {data.edu.map((e, i) => (
-                <List key={i}>
+                <List key={i}
+                id='clickable'
+                onClick={() => router.push(`/work-details/${e.idx}`)}
+                bg='#3b3b3b' 
+                rounded='lg' 
+                p={3} 
+                _hover={{bg: '#525252'}} transition='ease-in-out .2s'>
                     <SimpleGrid spacing='.4rem' columns={{base: 1, sm: 2}}>
                         <Stack 
                         spacing='.4rem'

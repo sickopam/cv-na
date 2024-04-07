@@ -32,6 +32,9 @@
             "loc": "Gadjah Mada University – Yogyakarta, Indonesia",
             "desc": "Head of computer science student association voting website using Next.js, TailwindCSS, React States, and more. Showcased excellent chemistry working in a team of developers.",
             "stack": ["Next.js", "TailwindCSS", "Axios API"],
+            "id": "hyperlink",
+            "link": "https://github.com/Pemira-Himakom/web-pemira-2022",
+            "ic": "ExternalLinkIcon",
             "start": "10/22",
             "end": "12/22",
             "ss": ["/assets/pemirass/ss1.png", "/assets/pemirass/ss2.png", "/assets/pemirass/ss3.png", "/assets/pemirass/ss4.png", "/assets/pemirass/ss5.png", "/assets/pemirass/ss6.png", "/assets/pemirass/ss7.png", "/assets/pemirass/ss8.png", "/assets/pemirass/ss9.png"]

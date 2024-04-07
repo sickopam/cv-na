@@ -15,6 +15,9 @@
             "idx": 2,
             "title": "Music Festival Model Website",
             "date": "10/22",
+            "id": "hyperlink",
+            "link": "https://github.com/sickopam/musfest",
+            "ic": "ExternalLinkIcon",
             "desc": ["A model website for music festivals in Indonesia, made with responsiveness using React.js. Completed as a frontend development class project."],
             "stack": ["React.js", "TailwindCSS", "Data-AOS"],
             "ss": ["/assets/musfest/ss1.png", "/assets/musfest/ss2.png", "/assets/musfest/ss3.png"]
@@ -23,6 +26,9 @@
             "idx": 3,
             "title": "Google Developer Students Club Application",
             "date": "09/22",
+            "id": "hyperlink",
+            "link": "https://github.com/sickopam/off---white",
+            "ic": "ExternalLinkIcon",
             "desc": ["Developed a skeleton copy of 'Off-White' website using Next.js and TailwindCSS.", "Integrated web responsiveness using CSS media queries."],
             "stack": ["Next.js", "TailwindCSS", "Axios API"],
             "ss": ["/assets/gdscss/ss1.png", "/assets/gdscss/ss2.png", "/assets/gdscss/ss3.png", "/assets/gdscss/ss4.png", "/assets/gdscss/ss5.png"]
