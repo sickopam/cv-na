@@ -17,7 +17,7 @@ export default function Edu() {
             {data.edu.map((e, i) => (
                 <List key={i}
                 id='clickable'
-                onClick={() => router.push(`/work-details/${e.idx}`)}
+                onClick={() => router.push(`/edu-details/${e.idx}`)}
                 bg='#3b3b3b' 
                 rounded='lg' 
                 p={3} 

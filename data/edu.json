@@ -1,6 +1,7 @@
 {
     "edu": [
         {
+            "idx": 1,
             "major": "Bachelor of Computer Science & AI",
             "link": "https://www.birmingham.ac.uk/undergraduate/courses/computer-science/artificial-intelligence-computer-science.aspx#:~:text=Our%20three%2Dyear%20Artificial%20Intelligence,put%20this%20in%20to%20practice.",
             "ic": "ExternalLinkIcon",
@@ -10,6 +11,7 @@
             "start": "09/23"
         },
         {
+            "idx": 2,
             "major": "Bachelor of Computer Science",
             "link": "https://ugm.ac.id/en/prodi/bachelor-in-computer-science/#:~:text=Graduates%20of%20this%20study%20program,in%20designing%2C%20developing%2C%20testing%20and",
             "ic": "ExternalLinkIcon",
@@ -19,6 +21,7 @@
             "start": "07/21"
         },
         {
+            "idx": 3,
             "major": "High School Diploma of Science",
             "link": "https://sisruwais.sabis.net/",
             "ic": "ExternalLinkIcon",
