@@ -16,12 +16,13 @@ export default function Edu() {
             <Text fontSize={{base: 'sm', sm: 'md'}}>Education</Text>
             {data.edu.map((e, i) => (
                 <List key={i}
-                id='clickable'
-                onClick={() => router.push(`/edu-details/${e.idx}`)}
-                bg='#3b3b3b' 
+                // id='clickable'
+                // onClick={() => router.push(`/edu-details/${e.idx}`)}
+                // bg='#3b3b3b' 
                 rounded='lg' 
                 p={3} 
-                _hover={{bg: '#525252'}} transition='ease-in-out .2s'>
+                // _hover={{bg: '#525252'}} transition='ease-in-out .2s'
+                >
                     <SimpleGrid spacing='.4rem' columns={{base: 1, sm: 2}}>
                         <Stack 
                         spacing='.4rem'

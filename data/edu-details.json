@@ -1,0 +1,16 @@
+{
+    "education": [
+        {
+            "id": 1,
+            "title": "University of Birmingham"
+        },
+        {
+            "id": 2,
+            "title": "Gadjah Mada University"
+        },
+        {
+            "id": 3,
+            "title": "SABIS International School Ruwais"
+        }
+    ]
+}

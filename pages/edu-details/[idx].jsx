@@ -1,17 +1,17 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-import data from '../../data/project-details.json';
-import Project from '@/comp/Project';
+import data from '../../data/edu-details.json';
+import Education from '@/comp/Education';
 
-const ProjectDetail = () => {
+const EducationDetail = () => {
   const router = useRouter();
   const { idx } = router.query;
-  const i = data.project.find((item) => item.id === parseInt(idx, 10));
+  const i = data.education.find((item) => item.id === parseInt(idx, 10));
 
   if (!i) {
-    return <p>Project not found</p>;
+    return <p>Education not found</p>;
   }
-  return <Project i={i} />;
+  return <Education i={i} />;
 };
 
-export default ProjectDetail;
+export default EducationDetail;
