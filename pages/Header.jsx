@@ -56,6 +56,14 @@ export default function Header() {
             color='#a5a5a5'
             fontSize='xs'
           >Paper CV</Button>
+          <Button 
+            onClick={() => window.open("https://www.privacypolicies.com/live/db140a0f-4776-40ca-8a00-ee2bb9e5d5ff", "_blank")} 
+            rounded='3xl'
+            bg='#3b3b3b'
+            _hover={{bg: '#525252'}}
+            color='#a5a5a5'
+            fontSize='xs'
+          >Privacy Policy</Button>
           <Button
             onClick={() => scrollToBottom()}
             rounded='3xl'
